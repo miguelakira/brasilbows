@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* DESIGN TOPNAV (mainmenu) */
+.topnav { margin:0 auto; padding-left:300px; width:auto; height:55px; font-size:13px; line-height:1em; text-transform:uppercase; background:#fff url(images/header_bg2.jpg) repeat-x top left;}
+/* level 0 */
+.topnav ul { margin:0; padding:0; float:left; width:auto; height:auto;}
+.topnav ul.menusm { padding:0 0 0 2px; height:55px; background:url(images/menu_split.gif) no-repeat left top;}
+.topnav ul li { margin:0; padding:0 0 0 2px; float:left; background:url(images/menu_split.gif) no-repeat right top;}
+.topnav ul li a { padding:22px 20px 20px; float:left; color:#737373; text-decoration:none;}
+.topnav ul li a.top_level { }
+.topnav ul li.current_page_item { }					/* active item first level */
+.topnav ul li.current_page_item a,
+.topnav ul li a.a_hover_main { color:#ac2929;}						/* on hover */
+/* level 1 */
+.topnav ul li ul { padding:0; top:55px; left:-1px; background:#f7f7f7;}			/* position of submenu */
+.topnav ul li ul li { margin:0; padding:0 0 2px; background:url(images/li_bg.gif) repeat-x left bottom;}
+.topnav ul li ul li a { padding:10px 16px 10px 24px; width:130px; font-weight:normal; color:#1e1e1e; text-decoration:none; background:url(images/nav-li.gif) no-repeat 12px center; border:none;}
+.topnav ul li ul li a.have_submenu { }																/* if item have submenu */
+.topnav ul li ul li a:hover,
+.topnav ul li ul li a.have_submenu_hover { color:#a13d3d; text-decoration:underline;}
+.topnav ul li ul li ul { padding:1px 0 0; top:-1px; left:170px;}	/* position of submenu level 2 */
+
+/* DESIGN NAV1 (categories) */
+#nav1 { }
+/* level 0 */
+#nav1 ul { }
+#nav1 ul li { }
+#nav1 ul li a { }
+#nav1 ul li.current-cat { }							/* active item first level */
+#nav1 ul li.current-cat a,
+#nav1 ul li a.a_hover_main { }				/* on hover */
+/* level 1 */
+#nav1 ul li ul { }				/* position of submenu */
+#nav1 ul li ul li { }
+#nav1 ul li ul li a { }
+#nav1 ul li ul li a.have_submenu { }																/* if item have submenu */
+#nav1 ul li ul li a:hover,
+#nav1 ul li ul li a.have_submenu_hover { }
+#nav1 ul li ul li ul { }		/* position of submenu level 2 */
+
+
+#nav1 * { }
+.topnav * { z-index:1002;}
+
+
+
+/* DO NOT EDIT!!! */
+ul.menusm { list-style:none;}
+ul.menusm li { cursor:pointer; position:relative;}
+ul.menusm li a { position:relative;}
+ul.menusm li ul { display:none; position:absolute; height:auto; list-style:none;}
+ul.menusm li ul li ul { position:absolute; list-style:none;}
