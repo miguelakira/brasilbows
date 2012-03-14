@@ -29,7 +29,7 @@
 <?php include('header.php'); ?>
   <div id="columns_no_shadow">
 
-<p><h1>1. O ARCO</h1></p>
+<p><h2>1. O ARCO</h2></p>
 <p>
 1.1 Arama elástica que consiste numa haste de madeira, aço, laminados ou outro material flexível, cujas extremidades estão ligadas por uma corda, que quando retesada e solta arremessa a flecha.</p>
 <p>1.2 Nomenclatura de um arco para tiro ao alvo, para principiantes. Fig. 1</p>
@@ -42,34 +42,33 @@
 
 
 <p>
-<p>2 - DETALHES</p>
+<p><h2>2 - DETALHES</h2></p>
 </p>
 
-<div class = "text_block">
-<img src="images/arco/fig3.png" class = "left">
-<p>	2.1 Arcos para destros tem a janela de visada do lado esquerdo.
-Fig.3</p>
+<div class = "text_container">
+	<div class = 'text_block'>
+		<img src="images/arco/fig3.png" class = "left">
+		<p>	2.1 Arcos para destros tem a janela de visada do lado esquerdo.
+		Fig.3</p>
+		<p>
+		Empunhado com a mão esquerda.<br />
+		Visada com o olho direito.<br />
+		Armado com a mão direita.</p>
+		</div>
 
 
-<p>
-Empunhado com a mão esquerda.<br />
-Visada com o olho direito.<br />
-Armado com a mão direita.</p>
+	<div class = 'text_block'>
+		<img src="images/arco/fig4.png" class = "left">
+		<p>2.2 Arcos para canhotos tem a janela de visada do lado direito.
+		Fig. 4</p>
+		
+
+		<p>Empunhado com a mão direita. <br />
+		Visada com o olho esquerdo. <br />
+		Armado com a mão esquerda.</p>
+	</div>
 </div>
-<p>
-	<div = class
-2.2 Arcos para canhotos tem a janela de visada do lado direito.
-Fig. 4</p>
-<img src="images/arco/fig4.png" class = "left">
-
-<p>Empunhado com a mão direita.</p>
-<p>
-Visada com o olho esquerdo.</p>
-<p>
-Armado com a mão esquerda.</p>
-
-<p>
-2.3 O tamanho de um arco não deverá ser maior do que a envergadura do arquiteto ou do que a altura do mesmo, e nunca menor do que o tamanho da distância do chão a parte inferior do queixo. Isso evitará flexão excessiva dos limbos. Fig. 5</p>
+<p>2.3 O tamanho de um arco não deverá ser maior do que a envergadura do arquiteto ou do que a altura do mesmo, e nunca menor do que o tamanho da distância do chão a parte inferior do queixo. Isso evitará flexão excessiva dos limbos. Fig. 5</p>
 <p>
 <img src="images/arco/fig5.png" class = "center">
 
@@ -89,13 +88,24 @@ Quanto maior essa distância, maior margem de alça terá o arqueiro. Isso permi
 Então você sempre opinará por um arco com força de puxada próximo do máximo que você possa suportar.</p>
 <p>
 2.6 Os arcos são geralmente fabricados com as seguintes forças para 71 cm (28 pol) de puxada.</p>
-<p>
-Infantil: Kg - 6.8 9.0 11.3
-Lbs - 15 20 25
-  Estes dados podem variar com a robustez e desenvolvimento do atleta.
-Juvenil e Adulto:
-Kg - 12.7 13.6 14.9 13.6 18.1 19.0
-Lbs - 28 30 33 36 40 42</p>
+<p>(Estes dados podem variar com a robustez e desenvolvimento do atleta.)</p>
+
+<table cellspacing="0" summary="The technical specifications of the Apple PowerMac G5 series">
+<tr>	
+<th scope="col" class = 'nobg'>Categoria</th>
+<th scope="col"> Kilogramas</th>
+<th scope="col"> Libras</th></tr>
+<tr>
+<th scope="row" class = "spec">Infantil</th>
+<td>6.8 <br>9.0 <br>11.3 </td>
+<td>12.7, 13.6  <br> 14.9, 13.6 <br> 18.1, 19.0</td>
+</tr>  
+<tr>
+<th scope="row" class = "specalt" >Juvenil e Adulto</th>
+<td class = "alt">15 <br>20  <br>25</td>
+<td class = "alt">28, 30 <br> 33, 36 <br>40, 42</td>
+</tr>
+</table>
 <p>
 2.7 A corda do arco
 </p>
